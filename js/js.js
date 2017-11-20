@@ -1,10 +1,10 @@
 $(window).scroll(function() {
   if ($(window).scrollTop()) {
-    $('nav').addClass('shrink');
- 	// $('nav').removeClass('hide-me');
+    $('header').addClass('shrink');
+ 	// $('header').removeClass('hide-me');
   } else {
-    // $('nav').addClass('hide-me');
-    $('nav').removeClass('shrink');
+    // $('header').addClass('hide-me');
+    $('header').removeClass('shrink');
   }
 });
 
@@ -149,7 +149,6 @@ var TxtType = function(el, toRotate, period) {
         that.tick();
         }, delta);
     };
-
     window.onload = function() {
         var elements = document.getElementsByClassName('typewrite');
         for (var i=0; i<elements.length; i++) {
@@ -159,7 +158,6 @@ var TxtType = function(el, toRotate, period) {
               new TxtType(elements[i], JSON.parse(toRotate), period);
             }
         }
-        // INJECT CSS
         var css = document.createElement("style");
         css.type = "text/css";
         css.innerHTML = ".typewrite > .wrap { border-right: 2px solid black}";
