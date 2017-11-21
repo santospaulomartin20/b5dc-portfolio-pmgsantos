@@ -41,7 +41,9 @@ header {
 #cont4 > .row > div.col-md-12 > div {
   margin-top: 2%;
 }
-
+img[alt=capstoneimages] {
+  box-shadow: 0 16px 28px 0 rgba(0, 0, 0, 0.22), 0 25px 55px 0 rgba(0, 0, 0, 0.21);
+}
 
 
 .hide-me {
@@ -72,9 +74,7 @@ header.navbar.shrink {
   padding-top: 15px; 
   min-height: 65px !important;
   border: none;
-  background: unset;
-
- 
+  background: unset; 
 }
 h1 > a:hover {
 	text-decoration: none;
