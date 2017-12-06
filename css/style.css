@@ -152,6 +152,9 @@ img[alt='ava'] {
   margin: 5px;
 
 }
+footer > div > div > div > p {
+  line-height: -3px;
+}
 .fa:hover,
 .fa:focus {
   opacity: 0.7;

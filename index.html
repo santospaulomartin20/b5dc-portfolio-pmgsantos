@@ -37,7 +37,7 @@
 					<ul class="nav navbar-nav navbar-right" style="padding-top:;font-size: 15px">
 						<li><a href="index.html">Home</a></li>
 						<li><a href="#cont2">About</a></li>
-						<li><a href='' data-toggle="modal" data-target="#emailme">Email Me</a></li>
+						<li><a href=''>Contact</a></li>
 					</ul>
 				</div>
 			</div>
@@ -152,47 +152,64 @@
 		</div>
 	</main>
 	<footer>
+		<div class="container" style="color:white;">
+			<div class="row">
+				<div class="col-md-6">
+					<h2>Contact Me</h2>
+					<p style="font-size: 16px"><span class="glyphicon glyphicon-phone" ></span> +639279169360</p>
+					<p style="font-size: 16px"><span class="glyphicon glyphicon-envelope" ></span><span> santospaulomartin20@gmail.com</span></p>
+
+					<p>
+						<span>
+							<script type="text/javascript" src="https://secure.skypeassets.com/i/scom/js/skype-uri.js"></script>
+							<style>
+							  #SkypeButton_Call_santospaulomartin20_1 {
+							    margin: 0;
+							    padding:0;
+							  }
+							  #SkypeButton_Call_santospaulomartin20_1 img {
+							    margin: 0px !important;
+							    position: absolute;
+							    vertical-align: middle !important;
+							  }
+							</style>
+							<div id="SkypeButton_Call_santospaulomartin20_1" style="line-height: 3;">
+								<script type="text/javascript">
+								 Skype.ui({
+								 "name": "chat",
+								 "element": "SkypeButton_Call_santospaulomartin20_1",
+								 "participants": ["santospaulomartin20"],
+								 "imageColor": "white",
+								 "imageSize": 24
+								 });
+								</script>
+							</div>
+						</span>
+					</p>
+				</div>	
+				<div class="col-md-6">
+					<h2>Social Media</h2>
+					<div class="col-md-8">
+		            	<a href="https://www.facebook.com/PMGSantos20" target="_blank"><span class=" fa fa-facebook"></span></a>
+		            	<a href="https://plus.google.com/u/1/107068138806492460352" target="_blank"><span class="fa fa-google-plus"></span></a>
+		            	<a href="#">
+		            		
+							</span></a>
+						</div>
+				</div>	
+			</div>
+		</div>
+		<br>
+		<hr>
 		<div class="container">
-		  <div class="row">
-		    <div class="col-md-12">
-		      <div class="col-md-8">
-            	<a href="https://www.facebook.com/PMGSantos20" target="_blank"><span class=" fa fa-facebook"></span></a>
-            	<a href="https://plus.google.com/u/1/107068138806492460352" target="_blank"><span class="fa fa-google-plus"></span></a>
-            	<a href="#"><span class="fa fa-skype"></span></a>
-		      </div>
-		      <div class="col-md-4" style="color:white;">
-		        <p class="pull-right"> &copy; Paulo Martin Santos. All rights reserved</p>
-		      </div>
-		    </div>
-		  </div>
+		  	<div class="row">
+		    	<div class="col-md-12" style="color:white;">
+		        	<p class="text-center"> &copy; Paulo Martin Santos. All rights reserved</p>
+		      	</div>
+			</div>
 		</div>
 	</footer>
 
-
-		<div id="emailme" class="modal fade" role="dialog">
-			<div class="modal-dialog">
-				<div class="modal-content">
-					<div class="modal-header">
-						<button type="button" class="close" data-dismiss="modal">&times;</button>
-						<h2 class="modal-title text-center">Send an email</h2>
-					</div>
-					<div class="modal-body col-md-12" style="height: 100%;float: none;text-align: center;">
-						<a id="foxyform_embed_link_909272" href="https://www.foxyform.com/">foxyform</a>
-						<script type="text/javascript">
-						(function(d, t){
-						   var g = d.createElement(t),
-						       s = d.getElementsByTagName(t)[0];
-						   g.src = "https://www.foxyform.com/js.php?id=909272&sec_hash=0df121ef768&width=350px";
-						   s.parentNode.insertBefore(g, s);
-						}(document, "script"));
-						</script>
-					</div>
-				</div>
-			</div>
-		</div>
-
-
-		
 
 
 
@@ -209,6 +226,8 @@ $('.modal').on('show.bs.modal', centerModal);
 $(window).on("resize", function () {
     $('.modal:visible').each(centerModal);
 });
+
+
 </script>
 
 <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
