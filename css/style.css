@@ -142,6 +142,17 @@ img[alt='ava'] {
   font-family: 'Russo One', sans-serif;
   font-weight: 50;
 }
+#dlcv {
+  background-color: transparent;
+  border: 1px solid grey;
+  border-radius: 3px;
+  margin-bottom: 20px;
+  font-family: 'Russo One', sans-serif;
+  color: black;
+}
+#dlcv:hover {
+  color: grey;
+}
 .fa {
   padding: 10px;
   font-size: 10px;
@@ -224,6 +235,7 @@ footer {
 	width: 100%;
   background-color: #262626 !important;
 	height: 100%;
+  font-family: 'Orbitron', sans-serif !important;
 }
 hr {
 	background-color: white;
